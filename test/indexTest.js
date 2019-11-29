@@ -329,11 +329,11 @@ function bench(method, iterations, args, context) {
         }
     };
 
-    timer('start')
-    for (let i = 0; i < iterations; i++)
-        method.apply(context, args)
-    var totalTime = timer('stop')
-    // console.log("Mean execution time was: ", totalTime / parseFloat(iterations));
-    // console.log("Sum execution time was: ", totalTime);
-    return totalTime / parseFloat(iterations);
-};
+//     timer('start')
+//     for (let i = 0; i < iterations; i++)
+//         method.apply(context, args)
+//     var totalTime = timer('stop')
+//     // console.log("Mean execution time was: ", totalTime / parseFloat(iterations));
+//     // console.log("Sum execution time was: ", totalTime);
+//     return totalTime / parseFloat(iterations);
+// };

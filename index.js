@@ -168,3 +168,4 @@ const fi = (function() {
 })()
 
 fi.libraryMethod()
+console.log(fi.uniq([1, 2, 2, 3, 4, 6, 9], false, val => val % 3));
